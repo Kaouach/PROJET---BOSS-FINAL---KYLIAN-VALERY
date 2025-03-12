@@ -1,52 +1,152 @@
+
 body {
+  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #032058;
 }
 
-#acceuil {
-  background-color: #032058;
-  height: 100vh;
-  width: 100%;
+main {
   display: flex;
-  justify-content: space-around;
+  width: 100vw;
+  background: #032058;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.student-list-section {
+  width: 30%;
+  background: #032058;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
   align-items: center;
 }
 
-#logo {
-  padding-left: 15%;
+.retour-button {
+  width: 100%;
+  padding: 10px;
+  background: #ff5722;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 10px;
 }
 
-#connection {
+.search-bar {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border: none;
+}
+
+.add-eleve {
+  background: #4caf50;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  font-size: 18px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.eleve-list {
   display: flex;
   flex-direction: column;
-  margin-right: 15%;
-  background-color: #032058;
-  gap: 35px;
+  width: 100%;
 }
 
-.input{
-    border-radius: 25px;
-    text-align: center;
-    min-height: 50px;
-    width: 33vh;
+.student {
+  background: white;
+  color: black;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  margin-bottom: 5px;
 }
 
-#username {
-  margin: 0;
-  padding: 0;
+.student:hover {
+  background: gray;
 }
 
-#pass {
-  margin: 0;
-  padding: 0;
+.student-info-section {
+  width: 70%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-#SignIn {
-  margin: 0;
-  padding: 0;
+.promo-info {
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
-#SignOut {
-  margin: 0;
-  padding: 0;
+.photo-placeholder {
+  width: 150px;
+  height: 150px;
+  background: #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.details input {
+  width: 50%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  align-items: center;
+}
+
+.navigation {
+  margin-top: 10px;
+}
+
+.navigation button {
+  padding: 10px;
+  font-size: 16px;
+  margin: 5px;
+  cursor: pointer;
+  border: none;
+  background: #2196f3;
+  color: white;
+}
+
+.actions {
+  margin-top: 10px;
+}
+
+.actions button {
+  padding: 10px;
+  margin: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.edit {
+  background: #ffeb3b;
+  color: white;
+  border-radius: 20px;
+}
+
+.delete {
+  background: #f44336;
+  color: white;
+  border-radius: 20px;
 }
