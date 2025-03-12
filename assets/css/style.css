@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#acceuil {
+  background-color: #032058;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#logo {
+  padding-left: 15%;
+}
+
+#connection {
+  display: flex;
+  flex-direction: column;
+  margin-right: 15%;
+  background-color: #032058;
+  gap: 35px;
+}
+
+.input{
+    border-radius: 25px;
+    text-align: center;
+    min-height: 50px;
+    width: 33vh;
+}
+
+#username {
+  margin: 0;
+  padding: 0;
+}
+
+#pass {
+  margin: 0;
+  padding: 0;
+}
+
+#SignIn {
+  margin: 0;
+  padding: 0;
+}
+
+#SignOut {
+  margin: 0;
+  padding: 0;
+}

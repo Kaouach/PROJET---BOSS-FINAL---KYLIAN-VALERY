@@ -1,0 +1,192 @@
+body {
+  display: flex;
+  height: 100vh;
+}
+
+#promo {
+  flex: 3;
+  background-color: #032058;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+}
+
+#leftBarContainer {
+  gap: 50px;
+  display: flex;
+  flex-direction: column;
+  background-color: #032058;
+}
+
+#homeBtn {
+}
+
+#searchBtn {
+  margin-bottom: 30px;
+}
+
+#promo span {
+  padding: 40px;
+  background-color: white;
+  border-radius: 25px;
+  margin-bottom: 20px;
+}
+
+#promolistContainer {
+}
+
+#headerPromoListContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  font-weight: bolder;
+  height: 20px;
+  margin-top: 50px;
+}
+
+#headerPromoListContainer h2 {
+  color: white;
+}
+
+#headerPromoListContainer input {
+}
+
+#promoList {
+  text-align: center;
+  background-color: white;
+  border-radius: 20px;
+  margin-top: 25px;
+  height: 50vh;
+  width: 20vw;
+}
+
+
+#promoContainer {
+  flex: 6;
+}
+#headerPromoID {
+  background-color: #032058;
+  display: flex;
+  height: 30vh;
+}
+
+#promoID {
+  background-color: #032058;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+
+  flex: 6;
+}
+
+#promoNameContainer {
+  background-color: white;
+  width: 35vw;
+  border-radius: 20px;
+  height: 100px;
+}
+
+#promoDateContainer {
+  background-color: white;
+  width: 35vw;
+  border-radius: 20px;
+  height: 40px;
+}
+
+#logo {
+  display: flex;
+  justify-content: center;
+  flex: 5;
+  
+}
+
+#mainPromoID {
+  background-color: #032058;
+  display: flex;
+  height: 60vh;
+}
+
+#mainLeftSide {
+  background-color: #032058;
+  display: flex;
+  flex: 6;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#descripPromo {
+  text-align: center;
+  background-color: white;
+  width: 35vw;
+  border-radius: 20px;
+  height: 40px;
+  margin-bottom: 0px;
+}
+
+#descripPromoText {
+  text-align: center;
+  background-color: white;
+  width: 35vw;
+  border-radius: 20px;
+  height: 28em;
+}
+
+#mainRightSide {
+    margin-top: 20px;
+  background-color: #032058;
+  display: flex;
+  flex: 5;
+  flex-direction: column;
+  align-items: center;
+}
+
+#mainRightSideHeader{
+    gap: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bolder;
+    height: 20px;
+}
+
+#mainRightSide h2{
+    color: white;
+}
+
+#footerPromoID {
+  background-color: #032058;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 10vh;
+}
+
+#actionButton {
+  display: flex;
+  gap: 5em;
+  margin-left: 100px;
+}
+
+#navi {
+  display: flex;
+  margin-left: 100px;
+  gap: 5em;
+}
+#Logo {
+  width: 250px;
+}
+
+#studdentList {
+  text-align: center;
+  background-color: white;
+  width: 20vw;
+  border-radius: 20px;
+  margin-top: 25px;
+  height: 50vh;
+}
+
